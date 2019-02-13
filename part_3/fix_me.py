@@ -58,7 +58,7 @@ total = a + b
 difference = a - b
 print("a - b =", difference, ", which is a", type(difference))
 
-    product = a * b
+product = a * b
 print("a * b =", product, ", which is a", type(product))
 
 quotient = a / b
@@ -71,11 +71,7 @@ remainder = a % b
 print("a % b =," remainder ", which is a," type(remainder))
 
 power = a ** b
-print("a ** b =",
-        power,
-        ", which is a",
-        type(power),
-        )
+print("a ** b =", power, ", which is a", type(power))
 
 a += 1
 print("Incrementing \"a\" by one results in", a, "which is a", type(a))
