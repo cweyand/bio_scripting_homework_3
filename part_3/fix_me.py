@@ -1,11 +1,11 @@
 #! /usr/bin/env python3
 
 # Reading data from the user's input
-a = input("Enter a : ")
+a = input('Enter a : ')
 
 print("You entered", a, "which is a", type(a))
 
-b = input("Enter b : ")
+b = input('Enter b : ')
 
 print("You entered", b, "which is a", type(b))
 
