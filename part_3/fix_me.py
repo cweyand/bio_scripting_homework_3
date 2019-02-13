@@ -2,11 +2,9 @@
 
 # Reading data from the user's input
 a = input('Enter a : ')
-
 print("You entered", a, "which is a", type(a))
 
 b = input('Enter b : ')
-
 print("You entered", b, "which is a", type(b))
 
 
@@ -32,11 +30,7 @@ quotient = a / b
 print("a / b =", quotient, ", which is a", type(quotient))
 
 floor_quotient = a // b
-print("a // b =",
-        floor_quotient,
-        ", which is a",
-        type(floor_quotient),
-        )
+print("a // b =", floor_quotient, ", which is a", type(floor_quotient))
 
 remainder = a % b
 print("a % b =", remainder, ", which is a", type(remainder))
